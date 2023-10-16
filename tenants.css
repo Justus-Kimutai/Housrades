@@ -1,0 +1,42 @@
+.rating-stars{
+    display: flex;
+    margin-left: 10px;
+}
+.rating-stars>div{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.review-text{
+    border: 2px solid  #b9b9b9;
+    margin-top: 0;
+}
+.user-name{
+    margin:0;
+    border: 1px solid  #b9b9b9;
+    display: inline-block;
+}
+.rate-btn{
+    text-align: right;
+}
+.rate-btn>img:hover{
+    transform: scale(1.1);
+}
+
+.house-div{
+    position: relative;
+}
+.promptRate-div{
+    display: none;
+}
+.show-promptRate-div{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:  #D9D9D9;
+    padding: 20px;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    border: 2px solid red;
+}
